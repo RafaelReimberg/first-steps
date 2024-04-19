@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap');
+
+:root{
+    --cor0: #CAC6C6;
+    --cor1: #949090;
+    --cor2: #625E5E;
+    --cor3: #343030;
+    --cor4: #060000;
+
+    --fonte-padrao: 'Bitter', serif;
+    --fonte-titulo: 'Miltonian Tattoo', cursive;
+    --fonte-principal: 'Dancing Script', cursive;
+    --fonte-secundaria: 'Architects Daughter', cursive;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body, html{
+  background-color: var(--cor2);
+  font-family: var(--fonte-padrao);
+  color: var(--cor0);
+  width: 100%;
+  height: 100%;
+}
