@@ -12,5 +12,4 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'Primeiros passos no Angular';
 
-  subtitle = 'Fazendo os primeiros teste com um subtitle';
 }
